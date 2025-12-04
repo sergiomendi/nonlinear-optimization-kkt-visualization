@@ -178,7 +178,6 @@ plt.figure(figsize=(8,6))
 plt.contourf(X1, X2, factible_mask, levels=[-0.5, 0.5, 1.5],
              colors=['white', 'lightblue'], alpha=0.5)
 
-# OJO: paso las etiquetas directamente aquí
 plt.contour(X1, X2, G1, levels=[0], colors='red', linewidths=2, label='g1(x)=0')
 plt.contour(X1, X2, G2, levels=[0], colors='green', linewidths=2, label='g2(x)=0')
 
@@ -201,3 +200,4 @@ plt.legend(loc='best')
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+
